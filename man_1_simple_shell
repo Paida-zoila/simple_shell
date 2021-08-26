@@ -1,4 +1,4 @@
-.TH HSH 1 "April 2017" "1.0" "Simple shell page"
+.TH HSH 1 "August 2021" "1.0" "Simple shell page"
 .SH NAME
 simple_shell - A simple UNIX shell.
 .SH SYNOPSIS
@@ -11,5 +11,6 @@ No options so far.
 bash(1)
 .SH BUGS
 No known bugs.
-.SH AUTHOR
-Daniel Alzugaray (dalzuga@gmail.com)
+.SH AUTHORS
+Israel Tsopgue (tsopgue@gmail.com)
+Paida Chinodyanama (paidachinama@gmail.com)

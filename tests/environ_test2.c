@@ -1,7 +1,10 @@
 #include "../header.h"
 #include <unistd.h>
 
-/* gcc -g -Wall -Wextra -Werror -pedantic tests/environ_test2.c print_grid.c print_char.c string.c print_func.c && ./a.out */
+/*
+*gcc -g -Wall -Wextra -Werror -pedantic tests/environ_test2.c
+*print_grid.c print_char.c string.c print_func.c && ./a.out
+*/
 
 int main(int argc __attribute__((unused)), char **argv __attribute__((unused)),
 	 char **env)

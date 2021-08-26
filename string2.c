@@ -67,16 +67,16 @@ int _min(int n, int m)
  */
 int _strcmp(const char *s1, const char *s2)
 {
-        int i = 0;
-        int j = 0;
+  int i = 0;
+  int j = 0;
 
-        for ( ; s1[i] != '\0'; i++)
-        {
-                if (s1[j] != s2[j]) /* if chars are different, break */
-                {
-                        break;
-                }
-                j++;
-        }
-        return (s1[j] - s2[j]); /* return difference in chars */
+  for ( ; s1[i] != '\0'; i++)
+    {
+      if (s1[j] != s2[j]) /* if chars are different, break */
+	{
+	  break;
+	}
+      j++;
+    }
+  return (s1[j] - s2[j]); /* return difference in chars */
 }

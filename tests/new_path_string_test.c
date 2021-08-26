@@ -2,11 +2,12 @@
 
 /*
  * To compile, from root directory:
- * gcc -g -Wall -Wextra -Werror -pedantic tests/new_path_string_test.c string.c print_func.c print_char.c debug.c
+ * gcc -g -Wall -Wextra -Werror -pedantic
+ *tests/new_path_string_test.c string.c print_func.c print_char.c debug.c
  */
 
 /* new string with format "variable" + '=' + "value", like in PATH */
-char *new_path_str(char *envvar, char* envval)
+char *new_path_str(char *envvar, char *envval)
 {
 	int envvar_len, envval_len, path_len = 0;
 	char *path_str;
@@ -32,9 +33,9 @@ char *new_path_str(char *envvar, char* envval)
 	return (path_str);
 }
 
-int main()
+int main(void)
 {
 	print_buffer(new_path_str("hi", "there"), 9);
 
-	return 0;
+	return (0);
 }

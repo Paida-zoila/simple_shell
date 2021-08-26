@@ -19,10 +19,8 @@ void print_buffer(void *ptr, size_t nmemb)
 	char *tmp_ptr;
 
 	tmp_ptr = ptr;
-
 	print_horizontal_bar(nmemb);
 	write(1, "\n", 1);
-
 	write(1, "|", 1);
 	for (i = 0; i < nmemb; i++)
 	{
@@ -38,12 +36,9 @@ void print_buffer(void *ptr, size_t nmemb)
 		write(1, " |", 3);
 		tmp_ptr++;
 	}
-
 	write(1, "\n", 1);
 	print_horizontal_bar(nmemb);
-
 	tmp_ptr = ptr;
-
 	write(1, "\n", 1);
 	write(1, "|", 1);
 	for (i = 0; i < nmemb; i++)
@@ -60,7 +55,6 @@ void print_buffer(void *ptr, size_t nmemb)
 		}
 		tmp_ptr++;
 	}
-
 	write(1, "\n", 1);
 	print_horizontal_bar(nmemb);
 	write(1, "\n", 1);

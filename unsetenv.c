@@ -65,7 +65,7 @@ void shrink_env(char ***env, int del)
 	/* copy the remaining values */
 	for (i = del; (*env)[i] != NULL; i++)
 	{
-		if ( (*env)[i + 1] != NULL )
+		if ((*env)[i + 1] != NULL)
 			new_env[i] = _strdup((*env)[i + 1]);
 		else
 			new_env[i] = NULL;

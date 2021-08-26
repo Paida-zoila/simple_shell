@@ -1,8 +1,11 @@
 #include "../header.h"
 
-/* gcc -Wall -Werror -Wextra -pedantic ../string.c ../string2.c cstrcmp_test.c && ./a.out */
+/*
+* gcc -Wall -Werror -Wextra -pedantic
+* ../string.c ../string2.c cstrcmp_test.c && ./a.out
+*/
 
-int main()
+int main(void)
 {
 	char *s1, *s2;
 
